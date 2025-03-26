@@ -1,7 +1,7 @@
 <nav id="navbar" class="bg-transparent fixed w-full z-20">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
       <a href="{{$page->baseUrl}}" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="{{$page->baseUrl}}/assets/images/logo.png" class="h-14 " alt="Flowbite Logo">
+        <img src="{{$page->baseUrl}}/assets/images/logo.png" class="h-14 " alt="aquaartistry Logo">
       </a>
       <div class="flex flex-1 md:flex-none md:order-2 justify-end space-x-3 rtl:space-x-reverse">
         <a href="{{$page->baseUrl}}/contact">
