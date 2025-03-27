@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => 'https://aquaartistry.test',
-    'description' => 'Website description.',
+    'description' => 'Aquaartistry – Redefining Hydration with Elegance and Innovation',
     'seo_image' => '/assets/images/favicon.png',
     'collections' => [],
   
