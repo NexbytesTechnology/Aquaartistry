@@ -16,8 +16,16 @@ p {
     font-family: 'Kanit', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-aqua-600 to-aqua-400;
+}
+
 ::selection {
-    background-color: #ffcc00; 
+    background-color: #0C4A6E; 
     color: #ffffff;           
   }
   
@@ -38,7 +46,8 @@ p {
     border: 12px solid rgba(0, 0, 0.5, 0.2);
   }
   ::-webkit-scrollbar-thumb {
-    background: radial-gradient(at bottom right, #c7174f, #a84f2c, #407dd9);
+    background: radial-gradient(at bottom right, #496dc2, #4e7890, #bfc6d1);
     border-radius: 50px;
   }
+  
   

@@ -1,10 +1,11 @@
-<footer class="bg-[#694429] text-gray-200 py-10">
+<footer class="bg-[#0c4a6e] text-gray-200 py-10">
   <div class="max-w-7xl mx-auto px-6 md:px-12">
     <!-- Footer Top Section -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- About Section -->
       <div class="flex flex-col items-center lg:items-start">
-        <img src="{{$page->baseUrl}}/assets/images/logo.png" alt="logo" class="h-16 mb-4">
+        {{-- <img src="{{$page->baseUrl}}/assets/images/logo.png" alt="logo" class="h-16 mb-4"> --}}
+        <h1 class="text-6xl">Aquaartistry</h2>
         <p class="text-sm text-center lg:text-left leading-relaxed">
           SMP Print & Packaging is committed to delivering high-quality printing and packaging solutions that help your brand stand out.
         </p>
@@ -16,8 +17,10 @@
         <ul class="space-y-2">
           <li><a href="{{$page->baseUrl}}/" class="hover:text-white transition-colors">Home</a></li>
           <li><a href="{{$page->baseUrl}}/about" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="{{$page->baseUrl}}/gallery" class="hover:text-white transition-colors">Gallery</a></li>
           <li><a href="{{$page->baseUrl}}/product" class="hover:text-white transition-colors">Product</a></li>
           <li><a href="{{$page->baseUrl}}/contact" class="hover:text-white transition-colors">Contact</a></li>
+
         </ul>
       </div>
 
@@ -41,8 +44,8 @@
     </div>
 
     <!-- Footer Bottom Section -->
-    <div class="mt-8 border-t border-gray-700 pt-6 text-center lg:text-left flex flex-col lg:flex-row justify-center lg:justify-center items-center space-y-4 lg:space-y-0">
-      <p>SMP Print & Packaging Designed with <span class="text-red-500">❤️</span> by <strong>Nexbytes</strong></p>
+    <div class="mt-8 border-t border-gray-500 pt-6 text-center lg:text-left flex flex-col lg:flex-row justify-center lg:justify-center items-center space-y-4 lg:space-y-0">
+      <p>Aquaartistry Designed with <span class="text-red-500">❤️</span> by <strong>Nexbytes</strong></p>
     </div>
   </div>
 </footer>

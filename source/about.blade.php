@@ -1,5 +1,5 @@
 @extends('_layouts.main')
-@section('title', 'About - SMP')
+@section('title', 'About - Aquaartistry')
 @section('body')
 
 <div class="btn-group-vertical" role="group" aria-label="">

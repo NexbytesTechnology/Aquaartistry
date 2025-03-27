@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
-        <title>@yield('title', 'SMP Print & Packaging')</title>
+        <title>@yield('title', 'Aquaartistry')</title>
         @include('_layouts.partials.favicon')
 
         @if($page->production)

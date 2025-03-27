@@ -1,5 +1,5 @@
 @extends('_layouts.main')
-@section('title', 'Contact - SMP')
+@section('title', 'Contact - Aquaartistry')
 @section('body')
 
 
